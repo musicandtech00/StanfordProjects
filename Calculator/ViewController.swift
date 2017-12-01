@@ -14,7 +14,6 @@ class ViewController: UIViewController {
     var userIsInTheMiddleOfTyping = false
     private let decimal = "."
 
-    var thisIsaChange = 0
     @IBOutlet weak var display: UILabel!
     
     @IBAction func touchDigit(_ sender: UIButton) {

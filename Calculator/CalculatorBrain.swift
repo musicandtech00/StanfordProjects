@@ -4,7 +4,8 @@
 //
 //  Created by Curtis Wiseman on 8/8/17.
 //  Copyright © 2017 Curtis Wiseman. All rights reserved.
-//
+
+// made some changes to the layout
 
 import Foundation
 
@@ -17,6 +18,10 @@ func multiply(a1:Double,a2:Double)->Double{
 }
 
 struct CalculatorBrain {
+    
+    var resultPending : Bool?
+    var description : String?
+    
     
     private var accumulator: Double?
     
